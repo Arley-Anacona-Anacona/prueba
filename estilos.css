@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin:13px;
+    
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+   
+
+}
+.inicio{
+    max-width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: solid red;
+}
+.menu_logo{
+    max-width: 100%;
+    background-color: aqua;  
+}
+.menu_botones{
+    border: solid red;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+
+}
+.pag_inicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+
+    align-items: safe center;
+    border: solid red;
+}
+.pag_inicio_texto{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 32.87em;
+	height: 30.3em;
+    padding-left: 100px;
+ 
+}
+.pag_inicio_texto_titulo{
+    font-size: 24px;
+
+}
+.pag_inicio_texto_subtitulo{
+    font-size: 18px;
+}
+.principal__botones{
+    display: flex;
+    padding-left: 100px;
+}
+
+.boton{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+	background-color: #19456b;
+	color: #fff;
+	font-weight: bolder;
+	border: none;
+	border-radius: 15px;
+    /* align-self: center; */
+}
+
+.boton:last-child{
+    margin-left: 3px;
+}
+
+.boton:hover{
+    transition: 1s;
+	background-color: #fff;
+	color: black;
+	cursor: pointer;
+	border: 1px solid  #19456b;
+}
+.regresar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: initial;
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+	color:black;
+    text-decoration: none;
+	font-weight: lighter;
+	border: none;
+	border-radius: 15px;
+    transition: 1s;
+ 
+	border: 1px solid  #19456b;
+    align-content: center;
+
+}
+.nosotros{
+    border: solid red;
+    height: 500px;
+}
+.pag_nosotros{
+    width: 100%;
+    height: auto;
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+    
+    
+}
+
+.vision{
+    
+  
+    color: rgb(10, 10, 10);
+    width: 30%;
+    height: 600px;
+    margin: 40px;
+}
+.contactosgrupo{
+    width: 100%;
+    height: auto;
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+    
+}
